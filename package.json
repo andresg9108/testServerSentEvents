@@ -1,0 +1,10 @@
+{
+  "name": "testserversentevents",
+  "version": "0.1.0",
+  "description": "Test Server-Sent Events",
+  "author": "Andrés González",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

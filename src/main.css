@@ -1,0 +1,27 @@
+:root{
+  --primary-color: #343a40;
+  --secondary-color: #6c757d;
+  --background-color: #212529;
+  --text-color: #ffffff;
+}
+
+/* Dark theme */
+:root.dark-theme {
+  --primary-color: #343a40;
+  --secondary-color: #6c757d;
+  --background-color: #212529;
+  --text-color: #ffffff;
+}
+
+/* Light theme */
+:root.light-theme {
+  --primary-color: #ffffff;
+  --secondary-color: #f8f9fa;
+  --background-color: #f8f9fa;
+  --text-color: #212529;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
